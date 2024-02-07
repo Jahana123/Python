@@ -1,0 +1,10 @@
+import tkinter as tk
+root=tk.Tk()
+root.geometry('1800x1200')
+frame=tk.Frame(root,width=850,height=450,bg='lightgreen')
+label=tk.Label(frame,text='Label inside frame')
+button=tk.Button(frame,text='Button inside frame')
+label.pack()
+button.pack()
+frame.pack()
+root.mainloop()
